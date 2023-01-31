@@ -56,7 +56,9 @@ function buttonClicked(){
 	// select the element we want to modify
 	let buttonDiv = document.getElementById("button-div");
 
-	buttonDiv.innerHTML = "Number of times button clicked: " + numberOfClicks;
+
+
+	buttonDiv.innerHTML = "Number of times button clicked" + numberOfClicks;
 
 }
 
